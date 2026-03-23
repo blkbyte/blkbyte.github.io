@@ -29,7 +29,7 @@ header {
 }
 
 header img {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .count {
@@ -268,5 +268,17 @@ header img {
     .hero nav ul {
         width: 250px;
         margin: 20px 25px;
+    }
+
+    header a img {
+        width: 50px;
+    }
+
+    header div img {
+        width: 200px;
+    }
+
+    header div p {
+        padding-right: 0px;
     }
 }
