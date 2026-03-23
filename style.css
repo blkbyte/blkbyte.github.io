@@ -1,0 +1,267 @@
+/* Базовые настройка */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    animation: fadeIn 3s ease;
+}
+
+/* Оформление страницы */
+
+body {
+    font-family: 'Press Start 2P', sans-serif;
+    color: azure;
+    background: #5b9e37;
+    background: linear-gradient(180deg, rgba(91, 158, 55, 1) 0%, rgba(26, 59, 13, 1) 100%);
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    margin-top: 30px;
+}
+
+.count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 1400px;
+    height: 600px;
+    background-color: black;
+    border: 2px solid chartreuse;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero img {
+    border-radius: 70%;
+}
+
+.hero h1 {
+    width: 1000px;
+    font-size: 100px;
+    font-weight: 800;
+    margin: 40px auto 0px auto;
+}
+
+.hero p {
+    margin: 40px auto 0px auto;
+    font-size: 14px;
+    width: 1000px;
+}
+
+.hero nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+    width: 400px;
+    height: 50px;
+    margin: 40px auto 20px auto;
+    background-color: aliceblue;
+    color: black;
+}
+
+.hero nav ul:hover {
+    opacity: 0.9;
+}
+
+.terminal {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+
+    color: chartreuse;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 16px;
+}
+
+.terminal .input {      
+    border-radius: 15px;
+
+    background-color: black;
+    
+    width: 100%;
+    padding-bottom: 30px;
+    margin-right: 20px;
+}
+
+#input {
+    border-style: none;
+    border-bottom: 1px solid;
+    border-radius: 0;
+
+    background-color: transparent;
+    color: chartreuse;
+
+    font-family: 'Press Start 2P', monospace;
+    font-size: 16px;
+
+    outline: none;
+}
+
+#output {
+    color: chartreuse;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 16px;
+
+    width: 1000px;
+    margin: 20px auto 0px auto; 
+}
+
+@media (max-width: 1400px) {
+    .container {
+        width: 1200px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 1000px;
+    }
+
+    .hero h1 {
+        width: 700px;
+        font-size: 50px;
+    }
+
+    .hero p {
+        width: 700px;
+        font-size: 12px;
+    }
+
+    .terminal {
+        width: 600px;
+        font-size: 12px;
+    }
+
+    .terminal .input p {
+        font-size: 12px;
+        width: 700px;
+    }
+
+    #output {
+        width: 700px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        width: 800px;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 600px;
+    }
+
+    .terminal .input p {
+        width: 400px;
+    }
+
+    #output {
+        width: 400px;
+    }
+
+    .hero h1 {
+        width: 400px;
+    }
+
+    .hero p {
+        width: 400px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 400px;
+    }
+
+    .hero h1 {
+        font-size: 25px;
+        width: 300px;
+    }
+
+    .hero p {
+        font-size: 10px;
+        width: 300px;
+    }
+
+    .terminal {
+        width: 300px;
+    }
+
+    .terminal .input p {
+        width: 300px;
+    }
+
+    #output {
+        width: 300px;
+    }
+
+    .hero nav {
+        width: 200px;
+    }
+
+    .hero nav ul {
+        width: 350px;
+        margin: 20px 25px;
+    }
+
+    #input {
+        border: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 200px;
+    }
+
+    .hero h1 {
+        width: 200px;
+    }
+
+    .hero p {
+        font-size: 10px;
+        width: 200px;
+    }
+
+    .terminal .input p {
+        width: 200px;
+    }
+
+    #output {
+        width: 200px;
+    }
+
+    .hero nav ul {
+        width: 350px;
+    }
+
+    #input {
+        border: none;
+    }
+}
