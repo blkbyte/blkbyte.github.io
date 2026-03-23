@@ -237,7 +237,7 @@ header img {
 
 @media (max-width: 400px) {
     .container {
-        width: 200px;
+        width: 300px;
     }
 
     .hero h1 {
@@ -263,5 +263,10 @@ header img {
 
     #input {
         border: none;
+    }
+
+    .hero nav ul {
+        width: 250px;
+        margin: 20px 25px;
     }
 }
