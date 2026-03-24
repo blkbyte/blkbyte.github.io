@@ -42,12 +42,14 @@ header img {
 .hero {
     display: flex;
     flex-direction: column;
+
     margin: 30px auto;
     width: 1400px;
     height: 600px;
-    background-color: black;
+
     border: 2px solid chartreuse;
     border-radius: 20px;
+    
     background: rgba(0, 0, 0, 0.5);
 }
 
@@ -74,15 +76,13 @@ header img {
     align-items: center;
 
     border-radius: 5px;
+
     width: 400px;
     height: 50px;
     margin: 40px auto 20px auto;
+
     background-color: aliceblue;
     color: black;
-}
-
-.hero nav ul:hover {
-    opacity: 0.9;
 }
 
 .terminal {
@@ -128,6 +128,14 @@ header img {
     width: 1000px;
     margin: 20px auto 0px auto; 
 }
+
+/* Анимаций */
+
+.hero nav ul:hover {
+    opacity: 0.9;
+}
+
+/* Адаптация */
 
 @media (max-width: 1400px) {
     .container {
